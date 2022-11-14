@@ -27,7 +27,7 @@ public class AudioFingerprint {
         case test5
     }
 
-    init(from rawFingerprint: [UInt32], algorithm: Algorithm, duration: Double) {
+    public init(from rawFingerprint: [UInt32], algorithm: Algorithm, duration: Double) {
         self.algorithm = algorithm
         self.duration = duration
         self.rawFingerprint = rawFingerprint
